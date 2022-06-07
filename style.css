@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.rsa-inputs{
+    padding: 30px;
+    margin: 0 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(230, 230, 230);
+    border-radius:20px ;
+    transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    align-items: center;
+}
+
+h4{
+    text-align: center;
+    color: rgb(70, 70, 70);
+    max-width: 400px;
+    word-wrap: break-word;
+}
+
+button{
+    margin: 20px 0 0 0;
+    border: none;
+    transition: .3s;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(177, 130, 221);
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgba(90, 238, 248, 0.411);
+    color: black;
+    
+}
+
+input{
+    border: 2px solid transparent;
+    outline: none;
+    transition: .2s;
+    border-radius: 5px;
+   
+}
+
+input:focus{
+    border-bottom: 2px solid rgba(90, 238, 248, 0.705);
+}
+
+@media screen and (max-width: 1200px) {
+    .rsa-inputs{
+        margin: 0 20%;
+    }
+  }
+@media screen and (max-width: 900px) {
+    .rsa-inputs{
+        margin: 0 2%;
+    }
+    h4{
+        
+        max-width: 300px;
+    }
+  }
