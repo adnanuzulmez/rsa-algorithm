@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="rsa-inputs">
+        <h4>RSA CIPHER ALGORITHM </h4>
+        <h4>Enter Q value</h4>
+        <input autocomplete="off" type="text" id="q">
+        <h4>Enter P value</h4>
+        <input autocomplete="off" type="text" id="p">
+        <h4>Enter the Plain Text</h4>
+        <input autocomplete="off" type="text" id="text">
+        <button id="send">Encrytp</button>
+        <div class="result">
+            <h4 >Public Key:</h4>
+            <h4 id="public"></h4>
+            <h4 >Private Key:</h4>
+            <h4 id="private"></h4>
+            <h4 >ASCII Plain Text</h4>
+            <h4 id="original"></h4>
+            <h4>Encrypted Text</h4>
+            <h4 id="encrypted"></h4>
+            <h4>Decrypted Text </h4>
+            <h4 id="decrypted"></h4>
+        </div>
+    </div>
+    <script src="rsa.js"></script>
+</body>
+</html>
